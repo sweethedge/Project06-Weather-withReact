@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Gaegu:300');
+
+section {
+  margin-top: 35px;
+  margin-left: 100px;
+  margin-right: 60px;
+  text-align: right;
+
+
+  text-align: center;
+  
+}
+
+li {
+  font-family: "Gaegu", sans-serif;
+  list-style-type: none;
+  border-bottom: 1px solid;
+  margin-right: 5px;
+  
+}
+

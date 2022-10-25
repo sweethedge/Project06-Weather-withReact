@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+/* eslint-disable */
+
+import {Route, Routes} from 'react-router-dom';
+import Nav from './page2/Nav'
+import WeatherMain from './com/WeatherMain'
+import WeatherMain2 from './com/WeatherMain2'
+import './App.css'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+    <Routes>
+      <Route path='/' element={<Nav />} />
+      <Route path='/WM' element={<WeatherMain />} />
+    <Route path='/WM2' element={<WeatherMain2 />} />
+    </Routes>
+    </>
+  )
 }
 
+
 export default App;
+

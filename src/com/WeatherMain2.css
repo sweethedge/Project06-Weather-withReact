@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Gaegu:300');
+
+
+header {
+  background-color: #022d50;
+  color: whitesmoke;
+  text-align: center;
+  font-family: "Noto Sans KR", sans-serif;
+}
+ul {
+  font-family: "Gaegu", sans-serif;
+  font-size: 20px;
+  text-decoration: none;
+  width: auto;
+  padding: 5px;
+  margin-top: 2rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  text-align: center;
+  border: 1px solid;
+  border-radius: 4px;
+}
+
+form {
+  text-align: center;
+}
+
+/* button:active, button:hover, button:focus {
+
+} */
