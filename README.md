@@ -1,2 +1,1 @@
-
-https://sweethedge.github.io/Project06-Weather-withReact
+* https://sweethedge.github.io/Project06-Weather-withReact
