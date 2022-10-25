@@ -14,7 +14,7 @@ function WeatherMain() {
   return (
     <>
     <header>
-      <h1>날씨예보</h1>
+      <h1>단기예보</h1>
     </header>
     <nav>
       <form>
