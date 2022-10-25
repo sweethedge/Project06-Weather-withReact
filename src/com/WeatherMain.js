@@ -27,7 +27,7 @@ function WeatherMain() {
       </nav>
       <WeatherDay d={day} />
       <footer>
-      <button><Link to='/'>가리기</Link></button>
+      <button><Link to='/'>홈으로</Link></button>
       </footer>
     </>
   );

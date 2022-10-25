@@ -10,8 +10,8 @@ function App() {
   return (
     <>
     <Routes>
-      <Route path='/' element={<Nav />} />
-      <Route path='/WM' element={<WeatherMain />} />
+    <Route path='/' element={<Nav />} />
+    <Route path='/WM' element={<WeatherMain />} />
     <Route path='/WM2' element={<WeatherMain2 />} />
     </Routes>
     </>

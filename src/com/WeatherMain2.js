@@ -31,7 +31,7 @@
       <h1>중기예보</h1>
       </header>
       <form>
-      <button><Link to='/'>가리기</Link></button>
+      <button><Link to='/'>홈으로</Link></button>
       </form>
       <ul>
       {lis}
